@@ -7,7 +7,12 @@ https://gulpjs.com/
 
 Follow Vishal: [Twitter](https://twitter.com/vishal_codes)
 
-## Options
-yarn install
-gulp watch
-gulp build
+## Install dependencies
+`yarn install`
+
+## Development mode
+`gulp watch`
+
+## Production build
+`gulp build`
+
