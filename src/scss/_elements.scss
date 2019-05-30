@@ -1,19 +1,52 @@
 html {
 	box-sizing: border-box;
+	position: relative;
+	font-family: $avenir;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	// letter-spacing: ls(-10px);
+	color: #666;
+	overflow-x: hidden;
+	@include MQ(L) {
+		font-size: 15px;
+	}
+	@include MQ(M) {
+		font-size: 14px;
+	}
+	@include MQ(S) {
+		font-size: 13px;
+		line-height: 1;
+	}
 }
 
 *,
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
+	font-kerning: auto;
+	font-variant-ligatures: none;
+	// -webkit-font-variant-ligatures: none;
+	text-rendering: optimizeLegibility;
+	// -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	font-smooth: always;
 }
 
-body {
-	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+.wrapper{
+	width: 1222px;
+	max-width: 89.327485380117%;
+}
+.wrap{
+	// max-width: 80%;
+	margin: 0 auto;
+	position: relative;
 }
 
 hr {
-	background-color: $color__background-hr;
+	background-color: $gray;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
@@ -72,22 +105,29 @@ table {
 // ****************************************************************************
 
 
-a {
-	color: $color__link;
+// a {
+// 	color: $blue;
 
-	&:visited {
-		color: $color__link-visited;
-	}
-	&:hover,
-	&:focus,
-	&:active {
-		color: $color__link-hover;
-	}
-	&:focus {
-		outline: thin dotted;
-	}
-	&:hover,
-	&:active {
-		outline: 0;
+// 	&:visited {
+// 		color: $gray;
+// 	}
+// 	&:hover,
+// 	&:focus,
+// 	&:active {
+// 		color: $black;
+// 	}
+// 	&:focus {
+// 		outline: thin dotted;
+// 	}
+// 	&:hover,
+// 	&:active {
+// 		outline: 0;
+// 	}
+// }
+
+a{
+	color: $blue;
+	@include hover {
+		text-decoration: underline;
 	}
 }

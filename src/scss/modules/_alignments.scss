@@ -1,16 +1,28 @@
-.alignleft {
+.floatLeft {
 	display: inline;
 	float: left;
 	margin-right: 1.5em;
 }
 
-.alignright {
+.floatRight {
 	display: inline;
 	float: right;
 	margin-left: 1.5em;
 }
 
-.aligncenter {
+.blockCenter {
 	clear: both;
 	@include center-block;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.alignLeft {
+	text-align: left;
 }
