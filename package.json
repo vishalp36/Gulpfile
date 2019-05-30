@@ -55,7 +55,7 @@
 		"gatsby-cli": "^2.5.12",
 		"global": "^4.3.2",
 		"gsap": "^2.1.2",
-		"jquery": "2.1.2",
+		"jquery": "3.4.0",
 		"mailgo": "^0.3.2",
 		"overlayscrollbars": "^1.7.0",
 		"tornis": "^0.1.3"
