@@ -1,4 +1,4 @@
-# gulpfile
+# Gulpfile
 
 The asset to develop a website with Gulp.
 https://gulpjs.com/
