@@ -5,7 +5,7 @@ https://gulpjs.com/
 
 ## Misc
 
-Follow Vishal: [Twitter](https://twitter.com/vishal_codes)
+Follow Me: [Twitter](https://twitter.com/vishal_codes)
 
 ## Install dependencies
 `yarn install`
